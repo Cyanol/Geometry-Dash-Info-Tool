@@ -17,9 +17,9 @@ end
 gAboutText=[[GDInfoTool v.0.1]]
 
 function CloseClick()
-  --called by the close button onClick event, and when closing the form
+  
   closeCE()
-  return caFree --onClick doesn't care, but onClose would like a result
+  return caFree 
 end
 
 --TRAINERGENERATORSTOP--
